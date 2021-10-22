@@ -22,7 +22,7 @@
     "express": "^4.17.1",
     "livereload": "^0.9.3",
     "mysql2": "^2.2.5",
-    "nodemon": "^2.0.7",
+    "nodemon": "^2.0.14",
     "sequelize": "^6.5.0",
     "sequelize-cli": "^6.2.0"
   },
