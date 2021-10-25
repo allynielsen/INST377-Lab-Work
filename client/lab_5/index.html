@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8' />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Allison Nielsen Lab 5</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel='stylesheet' href='styles.css' />
+</head>
+
+<body>
+    <div class="container"> <!--container for the entire webpage-->
+        <div class="column is-full has-background-green">
+            <div class="box has-background-warning">
+                <p class="is-family-sans-serif subtitle">
+                    Ally's Lab 5
+                </p>
+            </div>
+        </div>
+
+        <div class="columns is-mobile">
+            <div class="column is-narrow">
+                <div class="box">
+                    <form action="/api">
+                        <div class="field">
+                            <label class="label is-family-sans-serif">First Name</label>
+                            <div class="control">
+                                <input class="input" type="text">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label class="label is-family-sans-serif">Food Preference</label>
+                            <div class="control">
+                                <input class="input" type="text">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label class="label is-family-sans-serif">Veggie or Vegan?</label>
+                        </div>
+                        <div class="control">
+                            <label class="radio is-family-sans-serif">
+                                Yes
+                                <input type="radio" name="answer">
+                            </label>
+                            <label class="radio is-family-sans-serif">
+                                No
+                                <input type="radio" name="answer">
+                            </label>
+                        </div>
+                        <div class="control">
+                            <button class="button is-primary submitButton">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+
+            <div class="columm is-9">
+                <div class="box">
+                    <p class="is-family-sans-serif">This is going to be something in 2 weeks.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
